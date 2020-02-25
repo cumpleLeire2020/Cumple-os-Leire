@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html{
+    overflow-x: hidden;
+}
+
+
+body{
+    background-color: #f6e7e6;
+    background-image: url("images/starry-sky-998641.jpg");
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+#mytext{
+    color: white;
+    font-size: 10px;
+}
+
+
+
+#dislexiaText{
+    line-height: 40px;
+    text-align: left;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}

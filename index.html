@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+
+
+  <head>
+
+    <!--
+        Acabas de encontarte con garbancito que quiere darte un regalo
+
+
+               _                       
+                \`*-.                   
+                 )  _`-.                
+                .  : `. .               
+                : _   '  \              
+                ; *` _.   `*-._         
+                `-.-'          `-.      
+                  ;       `       `.    
+                  :.       .        \   
+                  . \  .   :   .-'   .  
+                  '  `+.;  ;  '      :  
+                  :  '  |    ;       ;-.
+                  ; '   : :`-:     _.`* ;
+               .*' /  .*' ; .*`- +'  `*'
+               `*-*   `*-*  `*-*'       
+  kasd98j123nmasd
+
+-->
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css"> 
+<script src="code.js"></script>
+    <title>Feliz cumpleaños!</title>
+  </head>
+  <body>
+    <div class="container">
+    <div class="flex-row" style="margin-top: 2%;">
+      <div class="col-3 text-center">
+        <img src="images/piscis.png" class="img-fluid" alt="Pisces">
+
+      </div>
+      <div class="col-6">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+        
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+
+            <div class="item active">
+              <img src="images/20190822_102949_239.jpg" title="Este">
+              <div class="carousel-caption">
+                <h3>Desde el primer dia que te vi</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/20190820_100256_622.jpg" title="es el primer">
+              <div class="carousel-caption">
+                <h3>Pasando por todas nuestras vivencias</h3>
+              </div>
+            </div>
+        
+            <div class="item">
+              <img src="images/20190822_103052_393.jpg" title="regalo">
+              <div class="carousel-caption">
+                <h3>Solo he sido capaz de pensar</h3>
+              </div>
+            </div>
+        
+            <div class="item">
+              <img src="images/20190821_112356_392.jpg" title="secreto">
+              <div class="carousel-caption">
+                <h3>En lo imprescindible que eres en mi vida</h3>
+              </div>
+            </div>
+
+
+          </div>
+        
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-3 text-center">
+        <img src="images/gemini.png" class="img-fluid" alt="Pisces">
+
+      </div>
+    </div>
+   
+    <div class="flex-row" style="padding-top: 5%; padding-bottom: 90%;">
+      <div class="col-md-3"></div>
+      <div class="col-md-6 text-center">
+        <div class="form-check pl-0" style="padding-bottom: 2%;">
+          <button type="button" class="btn btn-primary" id="botonDislexia" onclick="dislexia()">Activar modo dislexico</button>
+        </div>
+        <div class="textBackground" id="mytext" name="textoCambiar">
+          <p>Ya es el tercer cumpleaños que celebro a tu lado y soy muy feliz de poder decir eso. Tres cumpleaños que habran tenido sus altibajos como toda relación, momentos donde nos queremos mas, momentos donde hablamos menos o cualquier cosa. Al fin y al cabo lo que importa es seguir aqui otro año mas a tu lado, tanto apoyandote en los momentos malos como dandote dolores de cabeza cuando estoy insoportable.</p>
+
+            <p>Que cada dia que paso a tu lado me siento mas unido, siento cada dia mas que nuestra amistad no tiene fecha de caducidad y que a tu lado puedo relajarme porque siempre seguiras ahi y yo seguire a tu lado por supuesto. No hay mucho mas que decir Leire si te escribo una carta cada 3 meses ya te lo sabes todo de memoria. </p>
+
+            <p>Disfruta muchisimo de tu vida que has pasado y luchado por mucho para, por fin, haberte ganado de sobra ser feliz y que la vida te lo agradezca. Te quiero muchisimo Lei 💙</p>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+
+    <div class="flex-row" >
+      <div class="col-md-3"></div>
+      <div class="col-md-6 text-center" >
+        <input id="codigo" type="text" class="form-control" placeholder="Introduce el codigo secreto" name="Este codigo es algo mas dificil de encontrar verdad?: Pequeño brownie">
+        <button type="button" class="btn btn-primary" onclick="comprobarCodigo()">Enviar</button>
+
+    
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+
+
+
+  
+  </body>
+</html>
